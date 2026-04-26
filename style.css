@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+}
+
+/* NAV FIX */
+nav a {
+  text-decoration: none;
+  color: var(--text-soft);
+  padding: 8px 14px;
+  border-radius: 999px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background: var(--pink);
+  color: white;
+}
+
+/* SECTION HEADINGS */
+h2 {
+  font-family: 'Fredoka';
+  color: var(--pink);
+  margin-bottom: 15px;
+}
